@@ -1,0 +1,24 @@
+subscription_id ="fcb2d69d-cb3d-40cc-8bcd-98f6cf6a71a3"
+
+infra = {
+    resource_group={
+        "rg-sudarshan"={
+            location = "Central India"
+            tags = {
+                 Environment = "Dev"
+            }
+        }
+    }
+
+    storage_account = {
+        "strsudarhan" ={
+        rg_name = "rg-sudarshan"
+        account_tier             = "Standard"
+        account_replication_type = "LRS"
+        account_kind             = "StorageV2"
+        access_tier              = "Hot"
+        }
+    }
+
+}
+
