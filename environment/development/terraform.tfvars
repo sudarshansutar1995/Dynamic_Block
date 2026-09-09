@@ -31,6 +31,7 @@ infra = {
         Environment = "Test"
       }
     }
+
     }
 
     storage_account = {
