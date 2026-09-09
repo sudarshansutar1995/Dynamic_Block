@@ -25,7 +25,7 @@ infra = {
       }
     }
 
-     "rg-sudarshan1245" = {
+     "rg-sudarshan12466" = {
             location = "Central India"
       tags = {
         Environment = "Test"
