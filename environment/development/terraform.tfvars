@@ -1,6 +1,8 @@
 subscription_id ="fcb2d69d-cb3d-40cc-8bcd-98f6cf6a71a3"
 
 infra = {
+
+
     resource_group={
         "rg-sudarshan"={
             location = "Central India"
@@ -9,7 +11,21 @@ infra = {
             }
         }
 
-        "rg-sudarshan-test" = {
+        "rg-sudarshan-test122" = {
+            location = "Central India"
+      tags = {
+        Environment = "Test"
+      }
+    }
+
+     "rg-sudarshan123" = {
+            location = "Central India"
+      tags = {
+        Environment = "Test"
+      }
+    }
+
+     "rg-sudarshan12466" = {
             location = "Central India"
       tags = {
         Environment = "Test"
@@ -25,5 +41,6 @@ infra = {
         account_kind             = "StorageV2"
         access_tier              = "Hot"
         }
+
     }
 }
