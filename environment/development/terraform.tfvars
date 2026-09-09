@@ -4,14 +4,21 @@ infra = {
 
 
     resource_group={
-        "rg-sudarshan"={
+        "rg-sudarshan121"={
             location = "Central India"
             tags = {
                  Environment = "Dev"
             }
         }
 
-        "rg-sudarshan-test" = {
+        "rg-sudarshan-test122" = {
+            location = "Central India"
+      tags = {
+        Environment = "Test"
+      }
+    }
+
+     "rg-sudarshan123" = {
             location = "Central India"
       tags = {
         Environment = "Test"
