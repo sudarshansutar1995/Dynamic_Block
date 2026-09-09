@@ -8,6 +8,13 @@ infra = {
                  Environment = "Dev"
             }
         }
+
+        "rg-sudarshan-test" = {
+            location = "Central India"
+      tags = {
+        Environment = "Test"
+      }
+    }
     }
 
     storage_account = {
@@ -19,6 +26,4 @@ infra = {
         access_tier              = "Hot"
         }
     }
-
 }
-
