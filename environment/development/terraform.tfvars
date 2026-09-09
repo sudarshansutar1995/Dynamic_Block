@@ -7,6 +7,8 @@ infra = {
             tags = {
                  Environment = "Dev"
             }
+
+            
         }
 
         "rg-sudarshan-test" = {
@@ -15,6 +17,7 @@ infra = {
         Environment = "Test"
       }
     }
+
     }
 
     storage_account = {
@@ -25,5 +28,6 @@ infra = {
         account_kind             = "StorageV2"
         access_tier              = "Hot"
         }
+
     }
 }
