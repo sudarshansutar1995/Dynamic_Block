@@ -24,6 +24,15 @@ infra = {
         Environment = "Test"
       }
     }
+
+    "rg-sudarshan124" = {
+            location = "Central India"
+      tags = {
+        Environment = "Test"
+      }
+    }
+
+
     }
 
     storage_account = {
