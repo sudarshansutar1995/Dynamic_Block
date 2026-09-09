@@ -4,7 +4,7 @@ infra = {
 
 
     resource_group={
-        "rg-sudarshan121"={
+        "rg-sudarshan"={
             location = "Central India"
             tags = {
                  Environment = "Dev"
